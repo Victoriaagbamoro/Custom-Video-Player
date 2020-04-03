@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    background-color: #011638;
+    color: #fff;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 4rem;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 200;
+    margin: 2 8rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color:#F7931E ;
+    border: none;
+    border-radius: 10px;
+    color: #011638;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:hover{
+    color: #fff ;
+    outline: none;
+}
+
+@media(min-width: 1200px){
+    h1{
+        font-size: 5rem;
+    }
+}
+
+@media(max-width: 800px){
+    .container{
+        padding: 0 1rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 500px){
+    h1{
+        font-size:  2.5rem;
+    }
+}
